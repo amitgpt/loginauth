@@ -1,0 +1,22 @@
+
+<div class="wrapper ">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+  
+      <!-- Icon -->
+      <!-- <div class="fadeIn first">
+        <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+      </div> -->
+
+    <!-- Signup Form -->
+    <form class="form-signup" (ngSubmit)="register(user)"  #registerForm="ngForm">
+      <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1>
+      <input type="text" id="fullname" class="fadeIn second" name="fullName" placeholder="Full Name" [(ngModel)]="user.fullName">
+      <input type="text" id="login" class="fadeIn second" name="email" placeholder="Email" [(ngModel)]="user.email"> 
+      <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password" [(ngModel)]="user.password">
+      
+      <input class="fadeIn fourth" type="submit" value="signup">
+    </form>
+
+  </div>
+</div>

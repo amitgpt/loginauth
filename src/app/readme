@@ -1,0 +1,23 @@
+Frontend
+-----------------------------------------------
+Ng new loginauth
+ng g c login --spec false
+npm install –save bootstrap
+ng g i user
+ng g c pageNotFound --spec false -is -it
+ng g m dashboard
+ng g c dashboard/layout  --spec false -is -it
+ng g s gaurds/authGaurd --spec false
+ng g s services/auth --spec false
+ng g s services/user --spec false
+
+
+Backend
+------------------------------------------------
+npm install --save express 
+npm install --save body-parser 
+npm install --save mongooes
+npm install --save  bcrypt-nodejs
+npm install --save  cors
+npm install --save mongoose-unique-validator
+npm install --save jsonwebtoken
